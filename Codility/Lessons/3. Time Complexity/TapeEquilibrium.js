@@ -6,7 +6,7 @@ function solution(A) {
   let sum2 = A.reduce((sum, num) => sum + num, 0);
   let diff = 100000;
 
-  for (let i = 0; i < A.length; i++) {
+  for (let i = 0; i < A.length - 1; i++) {
     sum1 += A[i];
     sum2 -= A[i];
 

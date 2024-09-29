@@ -9,4 +9,3 @@ function solution(A) {
     answer = set.size;
     return answer
 }
-}
